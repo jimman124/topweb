@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.0.201606301005-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>java:com.mancom.TopWebApp</config>
+	</configs>
+	<autoconfigs>
+		<config>java:com.mancom.config.AsyncConfiguration</config>
+		<config>java:com.mancom.config.MetricsConfiguration</config>
+		<config>java:com.mancom.config.MetricsConfiguration$SparkRegistry</config>
+		<config>java:com.mancom.config.LoggingAspectConfiguration</config>
+		<config>java:com.mancom.security.AjaxAuthenticationFailureHandler</config>
+		<config>java:com.mancom.config.ThymeleafConfiguration</config>
+		<config>java:com.mancom.config.WebsocketConfiguration</config>
+		<config>java:com.mancom.security.Http401UnauthorizedEntryPoint</config>
+		<config>java:com.mancom.config.JacksonConfiguration</config>
+		<config>java:com.mancom.config.LocaleConfiguration</config>
+		<config>java:com.mancom.security.AjaxLogoutSuccessHandler</config>
+		<config>java:com.mancom.security.AjaxAuthenticationSuccessHandler</config>
+		<config>java:com.mancom.config.WebsocketSecurityConfiguration</config>
+		<config>java:com.mancom.config.WebConfigurer</config>
+		<config>java:com.mancom.config.DatabaseConfiguration</config>
+		<config>java:com.mancom.config.LoggingConfiguration</config>
+		<config>java:com.mancom.config.SecurityConfiguration</config>
+		<config>java:com.mancom.batch.BatchConfiguration</config>
+		<config>java:com.mancom.config.CacheConfiguration</config>
+		<config>java:com.mancom.config.CloudDatabaseConfiguration</config>
+		<config>java:com.mancom.security.SpringSecurityAuditorAware</config>
+		<config>java:com.mancom.config.MetricsConfiguration$GraphiteRegistry</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
